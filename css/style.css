@@ -1,0 +1,22 @@
+/* line 2, ../Compass-Boilerplate/assets/compass/sass/style.scss */
+.shadow {
+  -webkit-box-shadow: black 5px 5px 5px;
+  -moz-box-shadow: black 5px 5px 5px;
+  box-shadow: black 5px 5px 5px;
+}
+
+/* line 5, ../Compass-Boilerplate/assets/compass/sass/style.scss */
+body {
+  background: #ccc;
+}
+
+/* line 8, ../Compass-Boilerplate/assets/compass/sass/style.scss */
+.content {
+  background: red;
+}
+/* line 10, ../Compass-Boilerplate/assets/compass/sass/style.scss */
+.content > div {
+  background: blue;
+  padding: 22px;
+  margin-top: 50px;
+}
