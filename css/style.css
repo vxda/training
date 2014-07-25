@@ -20,3 +20,62 @@ body {
   padding: 22px;
   margin-top: 50px;
 }
+
+/* line 16, ../Compass-Boilerplate/assets/compass/sass/style.scss */
+.logo {
+  background-image: url('../Compass-Boilerplate/assets/images/gaya-design-logo.png?1379673344');
+  width: 102px;
+  height: 87px;
+}
+
+/* line 30, ../Compass-Boilerplate/assets/compass/sass/style.scss */
+.wraper > div {
+  float: left;
+  width: 30px;
+  height: 20px;
+}
+/* line 23, ../Compass-Boilerplate/assets/compass/sass/style.scss */
+.wraper > div.this:nth-of-type(1):before {
+  content: "1";
+  display: inline-block;
+}
+/* line 23, ../Compass-Boilerplate/assets/compass/sass/style.scss */
+.wraper > div.this:nth-of-type(2):before {
+  content: "2";
+  display: inline-block;
+}
+/* line 23, ../Compass-Boilerplate/assets/compass/sass/style.scss */
+.wraper > div.this:nth-of-type(3):before {
+  content: "3";
+  display: inline-block;
+}
+/* line 23, ../Compass-Boilerplate/assets/compass/sass/style.scss */
+.wraper > div.this:nth-of-type(4):before {
+  content: "4";
+  display: inline-block;
+}
+/* line 23, ../Compass-Boilerplate/assets/compass/sass/style.scss */
+.wraper > div.this:nth-of-type(5):before {
+  content: "5";
+  display: inline-block;
+}
+
+/* line 42, ../Compass-Boilerplate/assets/compass/sass/style.scss */
+.for-1 {
+  width: 61px;
+}
+
+/* line 42, ../Compass-Boilerplate/assets/compass/sass/style.scss */
+.for-2 {
+  width: 62px;
+}
+
+/* line 42, ../Compass-Boilerplate/assets/compass/sass/style.scss */
+.for-3 {
+  width: 63px;
+}
+
+/* line 42, ../Compass-Boilerplate/assets/compass/sass/style.scss */
+.for-4 {
+  width: 64px;
+}

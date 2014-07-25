@@ -13,3 +13,33 @@ body {
 		margin-top: 50px;
 	}
 }
+.logo {
+    background-image: image-url("gaya-design-logo.png");
+    width: image-width("gaya-design-logo.png");
+    height: image-height("gaya-design-logo.png");
+}
+@mixin addNumber($start,$end) {
+	@for $i from $start through $end {
+		&:nth-of-type(#{$i}):before {
+			content: "#{$i}";
+			display: inline-block;
+		}
+	}
+}
+.wraper {
+	> div {
+		float: left;
+		width: 30px;
+		height: 20px;
+		&.this {
+			@include addNumber(1,5);
+		}
+	}
+}
+$class-slug: for !default;
+
+@for $i from 1 through 4 {
+	.#{$class-slug}-#{$i} {
+		width: 60px + $i
+	}
+}
